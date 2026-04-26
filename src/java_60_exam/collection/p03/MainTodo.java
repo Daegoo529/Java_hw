@@ -1,6 +1,7 @@
 package java_60_exam.collection.p03;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class MainTodo {
@@ -19,5 +20,7 @@ public class MainTodo {
         for(int num : set){
             System.out.println(num);
         }
+
+
     }
 }
