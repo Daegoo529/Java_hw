@@ -1,4 +1,4 @@
-package additionalQuestions.practice0423.beverage;
+package additionalQuestions.practice0423.inheritanceExam.beverage;
 
 public class Coffee extends Beverage{
     public static int amount;

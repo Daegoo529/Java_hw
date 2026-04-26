@@ -1,4 +1,4 @@
-package additionalQuestions.practice0423.beverage;
+package additionalQuestions.practice0423.inheritanceExam.beverage;
 
 public abstract class Beverage {
     private String name;

@@ -1,4 +1,4 @@
-package additionalQuestions.practice0423.drink;
+package additionalQuestions.practice0423.inheritanceExam.drink;
 
 public class Drink {
     String name;

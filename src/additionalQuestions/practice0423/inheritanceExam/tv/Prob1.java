@@ -1,4 +1,4 @@
-package additionalQuestions.practice0423.tv;
+package additionalQuestions.practice0423.inheritanceExam.tv;
 
 public class Prob1 {
     public static void main(String[] args) {

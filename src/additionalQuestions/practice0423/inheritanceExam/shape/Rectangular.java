@@ -1,4 +1,4 @@
-package additionalQuestions.practice0423.shape;
+package additionalQuestions.practice0423.inheritanceExam.shape;
 
 public class Rectangular extends Shape{
     private double width;

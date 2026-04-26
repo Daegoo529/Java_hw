@@ -1,4 +1,4 @@
-package additionalQuestions.practice0423.account;
+package additionalQuestions.practice0423.inheritanceExam.account;
 
 public abstract class Account {
     private String accId;

@@ -1,4 +1,4 @@
-package additionalQuestions.practice0423.student;
+package additionalQuestions.practice0423.inheritanceExam.student;
 
 public class Student {
     private String name;

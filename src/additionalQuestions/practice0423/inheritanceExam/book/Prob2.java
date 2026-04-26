@@ -1,4 +1,4 @@
-package additionalQuestions.practice0423.book;
+package additionalQuestions.practice0423.inheritanceExam.book;
 
 public class Prob2 {
     public static void main(String[] args) {

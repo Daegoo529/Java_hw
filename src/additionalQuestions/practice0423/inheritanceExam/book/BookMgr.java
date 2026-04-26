@@ -1,4 +1,4 @@
-package additionalQuestions.practice0423.book;
+package additionalQuestions.practice0423.inheritanceExam.book;
 
 public class BookMgr {
     // todo1

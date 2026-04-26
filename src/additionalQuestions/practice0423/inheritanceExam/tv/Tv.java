@@ -1,4 +1,4 @@
-package additionalQuestions.practice0423.tv;
+package additionalQuestions.practice0423.inheritanceExam.tv;
 
 public class Tv {
     String color;
