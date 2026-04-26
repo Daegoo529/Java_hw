@@ -42,7 +42,7 @@ public class BankApplicationTodo {
         int index = 0;
 
         // TODO 1: "계좌생성" 안내를 출력하세요.
-        System.out.println("계좌가 생성 되었습니다.");
+        System.out.println("계좌를 생성합니다.");
 
         // TODO 2: 계좌번호, 계좌주, 초기입금액을 nextLine()으로 입력받으세요.
         System.out.println("새로 만들 계좌 번호를 입력해 주세요 > ");
@@ -75,6 +75,7 @@ public class BankApplicationTodo {
         // TODO 6: 저장된 모든 계좌를 출력하세요.
         // 출력 형식:
         // 111-111    홍길동    10000
+        System.out.println("계좌목록");
         for(AccountTodo at : accountArray){
             if( at != null){
                 System.out.println(at.ano+ "\t"+at.owner+"\t"+at.balance);
