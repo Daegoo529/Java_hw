@@ -5,3 +5,11 @@
 ## 2. basic_homework - KB 기본문제
 
 ## 3. advanced_homework - KB 심화문제
+
+## 4. java_60_exam - 강사님이 내준 문제
+      - collection
+      - exception
+      - inheritance
+      - interface
+      - io
+      - oop
