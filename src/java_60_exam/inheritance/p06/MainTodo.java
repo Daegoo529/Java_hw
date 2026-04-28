@@ -20,15 +20,23 @@ class CTodo extends ATodo {
     }
 
     // TODO 1: method2() 작성
+    void method2() { System.out.println("C-method2()"); }
 }
 
 public class MainTodo {
     static void action(ATodo a) {
         a.method1();
         // TODO 2: a가 CTodo이면 method2 호출
+        if (a instanceof CTodo) {
+            CTodo c = (CTodo) a;
+            c.method2();
+        }
     }
 
     public static void main(String[] args) {
         // TODO 3: action 세 번 호출
+        action(new ATodo());
+        action(new BTodo());
+        action(new CTodo());
     }
 }
