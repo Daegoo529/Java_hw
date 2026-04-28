@@ -21,7 +21,7 @@ public class MainTodo {
 
         // TODO 2: 모든 학생 정보 출력
         for (Map<String,Object> st : list) {
-            System.out.println("이름 : "+st.get("name") + "\t점수 : " + st.get("score") );
+            System.out.println("이름 : "+st.get("name") + " \t점수 : " + st.get("score") );
 
         }
     }

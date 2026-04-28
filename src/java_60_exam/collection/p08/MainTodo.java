@@ -15,5 +15,12 @@ public class MainTodo {
         for(Integer item : list){
             System.out.println(item);
         }
+
+        // Arrays.sort() 이용 List -> Array 변환
+        Integer[] array = list.toArray(new Integer[0]);
+
+        Arrays.sort(array);
+        System.out.println(Arrays.toString(array));
+
     }
 }

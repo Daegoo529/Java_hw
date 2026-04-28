@@ -15,5 +15,9 @@ public class MainTodo {
 
         // TODO 3: 영어 점수 출력
         System.out.println("영어 점수 : "+map.get("영어"));
+
+        for( Map.Entry<String, Integer> entrySet : map.entrySet() ){
+            System.out.println(entrySet.getKey() + " 점수 : " + entrySet.getValue());
+        }
     }
 }

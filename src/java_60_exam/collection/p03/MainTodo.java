@@ -1,8 +1,6 @@
 package java_60_exam.collection.p03;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class MainTodo {
     public static void main(String[] args) {
@@ -20,6 +18,30 @@ public class MainTodo {
         for(int num : set){
             System.out.println(num);
         }
+
+        Iterator<Integer> iterator = set.iterator();
+        while(iterator.hasNext()){
+            int result = iterator.next();
+            System.out.println(result);
+        }
+
+        // TODO + : 정렬하기
+        Set<Integer> sortedSet = new TreeSet<>(set);
+        // set은 Collections.sort() 를 직접 사용 X
+        // 1. list에 담아 sort 하기
+        //      List<String> list = new ArrayList<>(set);
+        //      Collections.sort(list);
+        // 2. TreeSet 사용하기
+        //      Set<String> sortedSet = new TreeSet<>(set);
+        // 3. Stream API 사용 (Java 8 이상)
+        //      List<String> sortedList = set.stream()
+        //      .sorted()
+        //      .collect(Collectors.toList());
+        System.out.println(sortedSet);
+        for(int item : sortedSet){
+            System.out.println(item);
+        }
+
 
 
     }

@@ -13,9 +13,9 @@ public class MainTodo {
         map.put("C", 30);
 
         // TODO 1: entrySet()을 이용해 key=value 형태로 출력
-        Set<Map.Entry<String,Integer>> entrySet = map.entrySet();
+//        Set<Map.Entry<String,Integer>> entrySet = map.entrySet();
 
-        for (Map.Entry<String, Integer> entry : entrySet) {
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
             String key = entry.getKey();
             int value = entry.getValue();
             System.out.println(key + " = " + value);

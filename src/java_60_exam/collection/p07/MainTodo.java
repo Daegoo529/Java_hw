@@ -16,8 +16,16 @@ public class MainTodo {
         queue.offer("세번째");
 
         // TODO 3: poll 하며 출력
-        System.out.println(queue.poll());
-        System.out.println(queue.poll());
-        System.out.println(queue.poll());
+//        System.out.println(queue.poll());
+//        System.out.println(queue.poll());
+//        System.out.println(queue.poll());
+
+        // Iterator 사용
+        Iterator<String> iterator = queue.iterator();
+        while(iterator.hasNext()){
+            String result = (String)iterator.next();
+            System.out.println(result);
+        }
+
     }
 }

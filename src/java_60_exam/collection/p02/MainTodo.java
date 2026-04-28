@@ -1,6 +1,7 @@
 package java_60_exam.collection.p02;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class MainTodo {
@@ -19,6 +20,11 @@ public class MainTodo {
         // TODO 3: 남은 요소 출력
         for(String str : list){
             System.out.println(str);
+        }
+        Iterator<String> iterator = list.iterator();
+        while(iterator.hasNext()){
+            String result = iterator.next().toString();
+            System.out.println(result);
         }
     }
 }

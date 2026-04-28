@@ -1,6 +1,7 @@
 package java_60_exam.collection.p09;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 class StudentTodo {
@@ -36,6 +37,18 @@ public class MainTodo {
         }
         avg = (double)sum / list.size();
 
-        System.out.printf("평균 : %.2f" , avg);
+        // iterator 사용
+        int sum1 = 0;
+        double avg1 = 0.0;
+        int size = list.size();
+        Iterator<StudentTodo> iterator = list.iterator();
+        while(iterator.hasNext()){
+            StudentTodo st = iterator.next();
+            sum1 += st.score;
+        }
+        avg1 = (double)sum1 / size;
+
+        System.out.printf("평균 : %.2f\n" , avg);
+        System.out.printf("평균 : %.2f", avg1);
     }
 }
