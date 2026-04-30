@@ -1,5 +1,5 @@
 package streamCodingTest.student.todo;
-import codingtest.common.Order; import java.util.*;
+import streamCodingTest.common.Order; import java.util.*;
 /** 코딩테스트 10: PAID 주문 기준으로 "count=개수,sum=합계,max=최대값" 문자열을 반환하시오. 없으면 max=0. */
 public class Ex10_BasicAggregateTodo {
     public static String amountSummary(List<Order> orders) {

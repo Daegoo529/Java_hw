@@ -1,5 +1,11 @@
 package streamCodingTest.student.todo;
-import codingtest.common.User; import java.util.*;
+
+import streamCodingTest.common.User;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 /** 코딩테스트 01: users에서 active=true인 사용자 이름만 입력 순서대로 반환하시오. */
 public class Ex01_StreamBasicsTodo {
     public static List<String> activeNames(List<User> users) {

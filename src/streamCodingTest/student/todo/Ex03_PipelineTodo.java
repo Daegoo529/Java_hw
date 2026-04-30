@@ -1,5 +1,8 @@
 package streamCodingTest.student.todo;
-import codingtest.common.Order; import java.util.*;
+
+import streamCodingTest.common.Order;
+
+import java.util.*;
 /** 코딩테스트 03: status가 PAID인 주문만 대상으로 평균 결제금액을 구하시오. 없으면 0.0 반환. */
 public class Ex03_PipelineTodo {
     public static double averagePaidAmount(List<Order> orders) {

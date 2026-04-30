@@ -1,5 +1,5 @@
 package streamCodingTest.student.todo;
-import codingtest.common.Order; import java.util.*;
+import streamCodingTest.common.Order; import java.util.*;
 /** 코딩테스트 12: PAID 주문만 category별 amount 합계로 수집하시오. */
 public class Ex12_CollectingTodo {
     public static Map<String, Integer> salesByCategory(List<Order> orders) {

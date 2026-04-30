@@ -1,5 +1,5 @@
 package streamCodingTest.student.todo;
-import codingtest.common.VisitLog; import java.util.*;
+import streamCodingTest.common.VisitLog; import java.util.*;
 /** 코딩테스트 08: seconds가 10 이상인 로그만 디버그 출력하고 총 seconds를 반환하시오. */
 public class Ex08_LoopingTodo {
     public static int totalSecondsWithDebug(List<VisitLog> logs) {

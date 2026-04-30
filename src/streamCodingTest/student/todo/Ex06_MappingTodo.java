@@ -1,5 +1,6 @@
 package streamCodingTest.student.todo;
-import codingtest.common.Product; import java.util.*;
+import streamCodingTest.common.Product;
+import java.util.*;
 /** 코딩테스트 06: 상품을 "SKU|상품명|가격원" 형식의 카드 문자열로 변환하시오. */
 public class Ex06_MappingTodo {
     public static List<String> toProductCards(List<Product> products) {

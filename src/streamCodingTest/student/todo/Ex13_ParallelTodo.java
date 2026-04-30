@@ -1,5 +1,5 @@
 package streamCodingTest.student.todo;
-import codingtest.common.Order; import java.util.*;
+import streamCodingTest.common.Order; import java.util.*;
 /** 코딩테스트 13: 대량 주문에서 PAID 상태의 amount 합계를 parallelStream으로 계산하시오. */
 public class Ex13_ParallelTodo {
     public static long parallelPaidTotal(List<Order> orders) {

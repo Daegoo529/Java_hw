@@ -1,4 +1,4 @@
-package stream.common;
+package stream.student.todo.common;
 
 public class Student {
     private final String name;

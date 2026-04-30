@@ -1,4 +1,4 @@
-package stream.common;
+package stream.student.todo.common;
 
 public class Product {
     private final int pno;

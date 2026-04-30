@@ -1,5 +1,7 @@
 package streamCodingTest.student.todo;
-import codingtest.common.Order; import java.util.*;
+
+import streamCodingTest.common.Order;
+import java.util.*;
 /** 코딩테스트 05: 중복 주문번호를 제거하고, status가 CANCEL인 주문번호만 반환하시오. */
 public class Ex05_FilteringTodo {
     public static List<String> uniqueCanceledOrderIds(List<Order> orders) {

@@ -1,6 +1,8 @@
 package stream.student.todo;
 
-import common.Student;
+
+import stream.student.todo.common.Student;
+
 import java.util.List;
 
 public class Ex11_CustomAggregateTodo {
@@ -12,6 +14,9 @@ public class Ex11_CustomAggregateTodo {
         );
 
         // TODO 1: mapToInt + sum으로 점수 합계를 구하세요.
-        // TODO 2: map + reduce(0, (a, b) -> a + b)로 점수 합계를 구하세요.
+        int sum1 = students.stream().mapToInt(Student::getScore).sum();
+
+        // TODO 2: map + reduce(0, (a, b) -> a + b)로 점수 합계를 구하세요.]
+//        int sum2 = students.stream().map(Student::getScore).reduce();
     }
 }

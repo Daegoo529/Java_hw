@@ -1,5 +1,6 @@
 package streamCodingTest.student.todo;
-import codingtest.common.Product; import java.util.*;
+import streamCodingTest.common.Product;
+import java.util.*;
 /** 코딩테스트 07: stock이 5 미만인 상품만 price 내림차순, price가 같으면 sku 오름차순으로 정렬하여 sku 목록 반환. */
 public class Ex07_SortingTodo {
     public static List<String> sortLowStockProducts(List<Product> products) {
